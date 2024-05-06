@@ -1,0 +1,414 @@
+@font-face {
+    font-family: akira;
+    src: url(../font/Akira\ Expanded\ Demo.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: akira;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.container-home {
+    max-width: 1031px;
+    margin: 0 auto;
+}
+
+.container-logo-slider {
+    max-width: 1032px;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 31px;
+}
+
+header .container .row {
+    display: grid;
+    grid-template-columns: 0.9fr 1.2fr 0.9fr;
+    align-items: center;
+}
+
+header .middle ul {
+    display: flex;
+    gap: 40px;
+}
+
+header .middle ul li a {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+header .right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header .right a {
+    border: 1px solid #fff;
+    padding: 12px;
+}
+
+
+/* header end */
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+/* home start */
+
+section.home {
+    background: url(../img/team-professional-cybersport-gamers-celebrating-success-gaming-club\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+section.home .container-home {
+    padding-top: 271px;
+    padding-bottom: 209px;
+    text-align: center;
+}
+
+section.home .container-home h3 {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+section.home .container-home h1 {
+    font-size: 70px;
+    padding-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+section.home .container-home h1 span {
+    color: #FF0000;
+}
+
+section.home .container-home a {
+    padding: 18.5px 20px;
+    background-color: #FF0000;
+    font-size: 18px;
+}
+
+/* home end */
+/* ,,,,,,,,,,,,,,,,,,,,,,,,, */
+/* logo-slider start */
+
+section.logo-slider {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+section.logo-slider .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+section.logo-slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+section.logo-slider .swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+section.logo-slider .swiper-button-next {
+    color: #FF0000;
+    font-size: 5px;
+}
+
+section.logo-slider .swiper-button-prev {
+    color: #FF0000;
+    font-size: 5px;
+}
+
+/* section logo-slider end*/
+/* ..................................... */
+/* section news start */
+
+section.news {
+    padding-top: 70px;
+    position: relative;
+}
+
+section.news .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.news .news-pagination {
+    position: relative;
+    right: 50px;
+
+}
+
+section.news .swiper-button-prev:after {
+    font-size: 15px;
+    color: #fff;
+    background-color: #FF0000;
+    padding: 15px 20px;
+    font-weight: 700;
+}
+
+section.news .swiper-button-next:after {
+    font-size: 15px;
+    color: #fff;
+    background-color: #FF0000;
+    padding: 15px 20px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+section.news .heading h2 {
+    font-size: 50px;
+    color: #000;
+}
+
+section.news .card-content {
+    background: #000;
+    padding: 25px 30px;
+}
+
+section.news .card-content h2 {
+    font-size: 22px;
+}
+
+section.news .card-content p {
+    padding-top: 10px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+
+section.news .card-content a {
+    color: #fff;
+    background: #FF0000;
+    padding: 3px;
+}
+
+section.news .row {
+    padding-top: 30px;
+}
+
+section.news .swiper {
+    display: flex;
+}
+
+section.news .swiper-slide {
+    background: #fff;
+    display: flex;
+    gap: 32px;
+}
+
+section.news .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    filter: grayscale(1);
+}
+
+/* section news end */
+/* ............................ */
+/* section success start */
+
+section.success {
+    padding-top: 150px;
+}
+
+section.success .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section.success .row .left .top {
+    background: #000;
+}
+
+section.success .row .left .top h2 {
+    padding-top: 96px;
+    padding-right: 77px;
+    padding-bottom: 93px;
+    padding-left: 75px;
+    line-height: 1.51;
+}
+
+section.success .row .left .bottom {
+    background: #FF0000;
+    padding-top: 81px;
+    padding-right: 81px;
+    padding-bottom: 54px;
+    padding-left: 79px;
+}
+
+section.success .row .left .bottom svg{
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+section.success .row .middle img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+}
+
+section.success .row .right .top{
+    background-color: #FF0000;
+    padding: 7px 109px 20px 90px;
+
+}
+
+section.success .row .right .top svg{
+    display: block;
+    margin: auto;
+}
+
+section.success .row .right .top h2{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section.success .row .right .bottom{
+    background-color: #000;
+    padding: 47px 67px 47px 64px;
+}
+
+section.success .row .right .bottom h2{
+    font-size: 55px;
+}
+
+/* sectin success end */
+/* ........................... */
+/* section rated start */
+
+section.rated{
+    padding: 150px 0;
+}
+
+section.rated .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+section.rated .row .right{
+    align-self: center;
+}
+
+section.rated .row .right h2{
+    font-size: 50px;
+    color: #000;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 65px;
+}
+
+section.rated .row .right a{
+    background-color: #FF0000;
+    font-size: 18px;
+    padding: 18.5px 20px;
+}
+
+/* section.rated end  */
+/* ............................. */
+/* section family start */
+
+section.family .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #FF0000;
+}
+
+section.family .left{
+    padding: 181px 120px 180px 112px;
+    align-self: center;
+}
+
+section.family .left h2{
+    font-size: 80px;
+}
+
+section.family .left .links {
+    display: flex;
+    gap: 15px;
+}
+
+section.family .left .links svg{
+    padding: 22px 24px;
+    color: #FF0000;
+    background: #fff;
+}
+
+section.family .right img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(1);
+}
+
+/* section family end */
+/* ............................... */
+/* footer start */
+
+footer{
+    background: #000;
+    padding-top: 130px;
+}
+
+footer .logo-footer{
+    display: block;
+    margin: auto;
+}
+
+footer .footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    padding-top: 62px;
+}
+
+footer .footer-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 55px;
+}
+
+footer .footer-links ul li a{
+    font-size: 14px;
+}
+
+footer .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 26px;
+}
