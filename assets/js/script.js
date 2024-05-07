@@ -1,19 +1,18 @@
 var swiper = new Swiper(".logoSwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+  slidesPerView: 7,
+  spaceBetween: 74,
+  autoplay: {
+    delay: 5000,
+  },    
   });
 
 
   var swiper = new Swiper(".newsSwiper", {
-    pagination: {
-      el: ".swiper-pagination",
-      type: "fraction",
-    },
-    autoplay: {
-        delay: 3000,
-      },    
+    slidesPerView: 3,
+    spaceBetween: 32,
+    // autoplay: {
+    //     delay: 3000,
+    //   },    
     navigation: {
       nextEl: ".news-next",
       prevEl: ".news-prev",

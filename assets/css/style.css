@@ -15,6 +15,7 @@
 
 img {
     max-width: 100%;
+    object-fit: cover;
 }
 
 .container {
@@ -32,17 +33,27 @@ img {
     margin: 0 auto;
 }
 
+.container-sixteenk{
+    width: 100%;
+}
+
+ul li a:hover {
+    color: #FF0000;
+    transition: .3s ease-in;
+}
+
 header {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
+    background: transparent;
     padding-top: 31px;
 }
 
 header .container .row {
     display: grid;
-    grid-template-columns: 0.9fr 1.2fr 0.9fr;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
 
@@ -67,6 +78,13 @@ header .right a {
     padding: 12px;
 }
 
+header .right a:hover {
+    border: 1px solid #FF0000;
+    background: #FF0000;
+    padding: 12px;
+    transition: ease 1s;
+}
+
 
 /* header end */
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
@@ -80,20 +98,20 @@ section.home {
 }
 
 section.home .container-home {
-    padding-top: 271px;
-    padding-bottom: 209px;
+    padding-top: 187px;
+    padding-bottom: 226px;
     text-align: center;
 }
 
 section.home .container-home h3 {
     font-size: 16px;
-    padding-bottom: 20px;
 }
 
 section.home .container-home h1 {
     font-size: 70px;
-    padding-bottom: 20px;
-    padding-bottom: 40px;
+    padding-top: 17px;
+    line-height: 70px;
+    margin-bottom: 57px;
 }
 
 section.home .container-home h1 span {
@@ -106,6 +124,13 @@ section.home .container-home a {
     font-size: 18px;
 }
 
+section.home .container-home a:hover{
+    color: #FFf;
+    border: 1px solid #FFf;
+    background: transparent;
+    transition: all ease 1s;
+}
+
 /* home end */
 /* ,,,,,,,,,,,,,,,,,,,,,,,,, */
 /* logo-slider start */
@@ -113,37 +138,21 @@ section.home .container-home a {
 section.logo-slider {
     padding-top: 50px;
     padding-bottom: 50px;
-    position: relative;
 }
 
 section.logo-slider .swiper {
     width: 100%;
-    height: 100%;
 }
 
-section.logo-slider .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+.parent{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 80px;
 }
 
 section.logo-slider .swiper-slide img {
     display: block;
+    width: 100%;
     object-fit: cover;
-}
-
-section.logo-slider .swiper-button-next {
-    color: #FF0000;
-    font-size: 5px;
-}
-
-section.logo-slider .swiper-button-prev {
-    color: #FF0000;
-    font-size: 5px;
 }
 
 /* section logo-slider end*/
@@ -151,7 +160,7 @@ section.logo-slider .swiper-button-prev {
 /* section news start */
 
 section.news {
-    padding-top: 70px;
+    padding-top: 66px;
     position: relative;
 }
 
@@ -163,25 +172,29 @@ section.news .heading {
 
 section.news .news-pagination {
     position: relative;
-    right: 50px;
-
+  right: 55px;
 }
 
-section.news .swiper-button-prev:after {
-    font-size: 15px;
+section.news .news-prev{
     color: #fff;
+   background-color: #FF0000;
+   padding: 18px 23px;
+   font-weight: 700;
+}
+
+section.news .news-prev:after {
+    font-size: 15px;
+}
+
+section.news .news-next{
+     color: #fff;
     background-color: #FF0000;
-    padding: 15px 20px;
+    padding: 18px 23px;
     font-weight: 700;
 }
 
-section.news .swiper-button-next:after {
+section.news .news-next:after {
     font-size: 15px;
-    color: #fff;
-    background-color: #FF0000;
-    padding: 15px 20px;
-    font-weight: 700;
-    margin-right: 15px;
 }
 
 section.news .heading h2 {
@@ -202,12 +215,15 @@ section.news .card-content p {
     padding-top: 10px;
     font-family: sans-serif;
     padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 19.6px;
 }
 
 section.news .card-content a {
     color: #fff;
     background: #FF0000;
     padding: 3px;
+    font-size: 14px;
 }
 
 section.news .row {
@@ -221,7 +237,6 @@ section.news .swiper {
 section.news .swiper-slide {
     background: #fff;
     display: flex;
-    gap: 32px;
 }
 
 section.news .swiper-slide img {
@@ -243,6 +258,10 @@ section.success .row {
     grid-template-columns: repeat(3, 1fr);
 }
 
+section.success .row .left {
+    width: 384px;
+}
+
 section.success .row .left .top {
     background: #000;
 }
@@ -252,14 +271,15 @@ section.success .row .left .top h2 {
     padding-right: 77px;
     padding-bottom: 93px;
     padding-left: 75px;
-    line-height: 1.51;
+    line-height: 31px;
+    font-size: 22px;
 }
 
 section.success .row .left .bottom {
     background: #FF0000;
-    padding-top: 81px;
+    padding-top: 83px;
     padding-right: 81px;
-    padding-bottom: 54px;
+    padding-bottom: 56px;
     padding-left: 79px;
 }
 
@@ -270,10 +290,19 @@ section.success .row .left .bottom svg{
     width: 100%;
 }
 
+section.success .row .middle{
+    width: 338px;
+}
+
 section.success .row .middle img{
     width: 100%;
     height: 100%;
     filter: grayscale(1);
+    max-height: 858px;
+}
+
+section.success .row .right{
+    width: 495px;
 }
 
 section.success .row .right .top{
@@ -283,6 +312,8 @@ section.success .row .right .top{
 }
 
 section.success .row .right .top svg{
+    height: 100%;
+    width: 100%;
     display: block;
     margin: auto;
 }
@@ -299,6 +330,7 @@ section.success .row .right .bottom{
 }
 
 section.success .row .right .bottom h2{
+    line-height: 55px;
     font-size: 55px;
 }
 
@@ -313,7 +345,11 @@ section.rated{
 section.rated .row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 35px;
+    gap: 33px;
+}
+
+section.rated .row .left img{
+    width: 100%;
 }
 
 section.rated .row .right{
@@ -325,13 +361,20 @@ section.rated .row .right h2{
     color: #000;
     width: 500px;
     padding-top: 20px;
-    padding-bottom: 65px;
+    padding-bottom: 60px;
 }
 
 section.rated .row .right a{
     background-color: #FF0000;
     font-size: 18px;
     padding: 18.5px 20px;
+}
+
+section.rated .row .right a:hover{
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    background: transparent;
+    transition: all ease 1s;
 }
 
 /* section.rated end  */
@@ -342,6 +385,7 @@ section.family .row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #FF0000;
+    position: relative;
 }
 
 section.family .left{
@@ -351,18 +395,26 @@ section.family .left{
 
 section.family .left h2{
     font-size: 80px;
+    line-height: 80px;
 }
 
 section.family .left .links {
     display: flex;
+    align-items: center;
     gap: 15px;
+    padding-top: 40px;
 }
 
-section.family .left .links svg{
-    padding: 22px 24px;
-    color: #FF0000;
-    background: #fff;
+section.family .left .links a{
+    padding: 22px;
+    background-color: #fff;
+    align-items: center;
 }
+
+/* section.family .left .links svg{
+    color: #FF0000;
+    z-index:99;
+} */
 
 section.family .right img{
     width: 100%;
@@ -411,4 +463,9 @@ footer .footer-bottom {
     gap: 10px;
     padding-top: 60px;
     padding-bottom: 26px;
+}
+
+footer .footer-bottom a:hover{
+    color: #FF0000;
+    transition: .5s ease all;
 }
