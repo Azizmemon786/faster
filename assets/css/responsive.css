@@ -243,9 +243,13 @@
         align-items: center;
     }
 
+    header .left img{
+        width: 120px;
+    }
+
     header .middle ul {
         display: flex;
-        justify-content: end;
+        justify-content: center;
         gap: 20px;
     }
 
@@ -723,11 +727,6 @@
 
      /* ......................................................... */
 
-     section.news .heading h2 {
-        font-size: 20px;
-        color: #000;
-    }
-
     section.news .card-content {
         background: #000;
         padding: 13px;
@@ -844,6 +843,8 @@
         transition: all ease 1s;
     }
 
+    /* ............................................. */
+
     section.family .left {
         padding: 30px;
         align-self: center;
@@ -900,4 +901,6 @@
        font-size: 8px;
        padding-top: 10px;
     }
+
+
 }
