@@ -1,144 +1,99 @@
-@media screen and (max-width : 1230px) {
-    .container {
-        max-width: 1024px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .container-home {
-        max-width: 1024px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .container-logo-slider {
-        max-width: 1024px;
-        padding-left: 30px;
-        padding-right: 30px;
+@media only screen and (min-width : 1600px) {
+    .container-sixteenk {
+        width: 1216px;
+        margin: 0 auto;
     }
 }
 
-/* ...................................................... */
-@media screen and (max-width : 1024px) {
+@media only screen and (max-width : 1230px) {
     .container {
-        width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .container-home {
-        width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .container-logo-slider {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-sixteenk {
         width: 100%;
-        padding-left: 30px;
-        padding-right: 30px;
+        margin: 0 auto;
     }
-
-    header .container .row {
-        display: grid;
-        grid-template-columns: 20% 60% 20%;
-        align-items: center;
-    }
-
 
     header .middle ul {
         display: flex;
-        gap: 20px;
-        justify-content: end;
+        gap: 30px;
     }
 
     header .middle ul li a {
         font-weight: 800;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     header .right a {
         border: 1px solid #fff;
-        padding: 10px;
+        padding: 10px 13px;
         font-size: 12px;
     }
 
-    /* ................................. */
+    /* ............................................................... */
+
+    section.home .container-home {
+        padding-top: 160px;
+        padding-bottom: 200px;
+    }
 
     section.home .container-home h3 {
         font-size: 12px;
-        padding-bottom: 20px;
     }
 
     section.home .container-home h1 {
-        font-size: 50px;
-        padding-bottom: 20px;
-        padding-bottom: 40px;
+        font-size: 55px;
+        padding-top: 15px;
+        margin-bottom: 50px;
+        line-height: 55px;
     }
 
     section.home .container-home a {
-        padding: 12px;
+        padding: 15px 17px;
         background-color: #FF0000;
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    /* ....................................... */
-
-    section.logo-slider .swiper-slide {
-        text-align: center;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-    }
-
-    /* ......................................... */
-
-    section.news .swiper-button-prev:after {
-        font-size: 15px;
-        color: #fff;
-        background-color: #FF0000;
-        padding: 15px 20px;
-        font-weight: 700;
-    }
-
-    section.news .swiper-button-next:after {
-        font-size: 10px;
-        color: #fff;
-        background-color: #FF0000;
-        padding: 12px;
-        font-weight: 700;
-        margin-left: 50px;
-    }
-
-    section.news .swiper-button-prev:after {
-        font-size: 10px;
-        color: #fff;
-        background-color: #FF0000;
-        padding: 12px;
-        font-weight: 700;
-        margin-left: 25px;
-    }
+    /* ....................................................... */
 
     section.news .heading h2 {
-        font-size: 35px;
+        font-size: 40px;
         color: #000;
     }
 
     section.news .card-content {
         background: #000;
-        padding: 20px;
+        padding: 20px 25px;
     }
 
     section.news .card-content h2 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     section.news .card-content p {
         padding-top: 10px;
         font-family: sans-serif;
-        padding-bottom: 30px;
-        font-size: 12px;
+        padding-bottom: 20px;
+        font-size: 14px;
+        line-height: 17px;
     }
 
     section.news .card-content a {
@@ -148,86 +103,311 @@
         font-size: 12px;
     }
 
-    /* ............................................... */
+    /* ...................................................... */
 
-    section.success .row .left .top h2 {
-        padding: 30px;
-        line-height: 1.51;
-        font-size: 16px;
+    section.success .row .left {
+        width: 290px;
     }
 
-    section.success .row .left .bottom {
-        background: #FF0000;
-        padding: 30px;
+    section.success .row .left .top h2 {
+        padding-top: 85px;
+        padding-right: 70px;
+        padding-bottom: 86px;
+        padding-left: 70px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    section.success .row .middle {
+        width: 300px;
+    }
+
+    section.success .row .right {
+        width: 400px;
     }
 
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 30px;
-    }
-
-    section.success .row .right .top h2 {
-        font-size: 22px;
-        text-align: center;
-        padding-top: 20px;
+        padding: 7px 90px 20px 70px;
     }
 
     section.success .row .right .bottom {
         background-color: #000;
-        padding: 30px;
+        padding: 46px 60px 47px 60px;
     }
 
     section.success .row .right .bottom h2 {
-        font-size: 35px;
+        line-height: 45px;
+        font-size: 45px;
     }
 
-    /* ........................................ */
-
-    section.rated .row .right img {
-        width: 30px;
-    }
+    /* ............................................................................. */
 
     section.rated .row .right h2 {
-        font-size: 30px;
+        font-size: 40px;
         color: #000;
-        width: 100%;
+        width: 400px;
         padding-top: 20px;
-        padding-bottom: 45px;
+        padding-bottom: 40px;
     }
 
     section.rated .row .right a {
         background-color: #FF0000;
-        font-size: 12px;
-        padding: 13px;
+        font-size: 16px;
+        padding: 15px 17px;
     }
 
-    /* ........................................... */
+    /* ................................................................................ */
 
     section.family .left {
-        padding: 50px;
+        padding: 160px 100px 160px 100px;
         align-self: center;
     }
 
     section.family .left h2 {
-        font-size: 50px;
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    section.family .left .links a {
+        padding: 16px;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    /* .......................................................................................... */
+
+    footer {
+        background: #000;
+        padding-top: 100px;
+    }
+
+    footer .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+        padding-top: 50px;
+    }
+
+    footer .footer-links ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 45px;
+    }
+
+    footer .footer-links ul li a {
+        font-size: 12px;
+    }
+
+    footer .footer-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 1024px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container-home {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container-logo-slider {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container-sixteenk {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .container .row {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        align-items: center;
+    }
+
+    header .middle ul {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+
+    header .middle ul li a {
+        font-weight: 800;
+        font-size: 10px;
+    }
+
+    header .right a {
+        border: 1px solid #fff;
+        padding: 10px 13px;
+        font-size: 10px;
+    }
+
+    /* ............................................................. */
+
+    section.home .container-home {
+        padding-top: 130px;
+        padding-bottom: 150px;
+        text-align: center;
+    }
+
+    section.home .container-home h3 {
+        font-size: 12px;
+    }
+
+    section.home .container-home h1 {
+        font-size: 45px;
+        padding-top: 17px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+
+    section.home .container-home a {
+        padding: 13px;
+        background-color: #FF0000;
+        font-size: 14px;
+    }
+
+    /* ....................................................... */
+
+    section.news .heading h2 {
+        font-size: 30px;
+        color: #000;
+    }
+
+    section.news .card-content {
+        background: #000;
+        padding: 15px 20px;
+    }
+
+    section.news .card-content h2 {
+        font-size: 16px;
+    }
+
+    section.news .card-content p {
+        padding-top: 10px;
+        font-family: sans-serif;
+        padding-bottom: 20px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    section.news .card-content a {
+        color: #fff;
+        background: #FF0000;
+        padding: 3px;
+        font-size: 10px;
+    }
+
+    /* ............................................................. */
+
+    section.success .row .left {
+        width: 100%;
+    }
+
+    section.success .row .left .top h2 {
+        padding-top: 75px;
+        padding-right: 50px;
+        padding-bottom: 70px;
+        padding-left: 50px;
+        line-height: 17px;
+        font-size: 17px;
+    }
+
+    section.success .row .middle {
+        width: 100%;
+    }
+
+    section.success .row .right {
+        width: 100%;
+    }
+
+    section.success .row .right .top {
+        background-color: #FF0000;
+        padding: 7px 90px 20px 70px;
+    }
+
+    section.success .row .right .bottom {
+        background-color: #000;
+        padding: 60px 40px 50px 40px;
+    }
+
+    section.success .row .right .bottom h2 {
+        line-height: 35px;
+        font-size: 30px;
+    }
+
+    /* ....................................................... */
+
+    section.rated .row .right h2 {
+        font-size: 30px;
+        color: #000;
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    section.rated .row .right a {
+        background-color: #FF0000;
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    /* .................................................................... */
+
+    section.family .left {
+        padding: 130px 70px 130px 70px;
+        align-self: center;
+    }
+
+    section.family .left h2 {
+        font-size: 45px;
+        line-height: 50px;
     }
 
     section.family .left .links {
         display: flex;
+        align-items: center;
         gap: 10px;
+        padding-top: 40px;
     }
 
-    section.family .left .links svg {
-        padding: 15x;
-        color: #FF0000;
-        background: #fff;
+    section.family .left .links a {
+        padding: 14px;
+        background-color: #fff;
+        align-items: center;
     }
 
-    /* ............................................ */
+    /* ............................................. */
 
     footer {
         background: #000;
-        padding-top: 70px;
+        padding-top: 100px;
+    }
+
+    footer .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+        padding-top: 50px;
     }
 
     footer .footer-links ul {
@@ -247,50 +427,65 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding-top: 30px;
-        padding-bottom: 26px;
+        padding-top: 40px;
+        padding-bottom: 20px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width : 768px) {
+@media only screen and (max-width : 768px) {
     .container {
         width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 0 auto;
+        padding: 0 30px;
     }
 
     .container-home {
         width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 0 auto;
+        padding: 0 30px;
     }
 
     .container-logo-slider {
         width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 0 auto;
+        padding: 0 30px;
     }
 
-    /* ................................................... */
+    .container-sixteenk {
+        width: 100%;
+        margin: 0 auto;
+    }
 
-    header .middle ul {
-        display: flex;
-        gap: 40px;
+    header .middle ul li a {
+        font-weight: 800;
+        font-size: 12px;
         display: none;
     }
 
-    /* ............................... */
+    header .right a {
+        border: 1px solid #fff;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    /* ..................................................... */
+
+    section.home .container-home {
+        padding-top: 100px;
+        padding-bottom: 120px;
+        text-align: center;
+    }
 
     section.home .container-home h3 {
-        font-size: 12px;
-        padding-bottom: 20px;
+        font-size: 10px;
     }
 
     section.home .container-home h1 {
-        font-size: 30px;
-        padding-bottom: 20px;
-        padding-bottom: 40px;
+        font-size: 35px;
+        padding-top: 17px;
+        line-height: 35px;
+        margin-bottom: 20px;
     }
 
     section.home .container-home a {
@@ -299,27 +494,16 @@
         font-size: 12px;
     }
 
-    /* .............................. */
-
-    section.logo-slider .swiper-slide {
-        text-align: center;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-
-    /* ..................................... */
+    /* ......................................................... */
 
     section.news .heading h2 {
-        font-size: 30px;
+        font-size: 25px;
         color: #000;
     }
 
     section.news .card-content {
         background: #000;
-        padding: 10px;
+        padding: 10px 15px;
     }
 
     section.news .card-content h2 {
@@ -329,9 +513,9 @@
     section.news .card-content p {
         padding-top: 10px;
         font-family: sans-serif;
-        padding-bottom: 10px;
-        font-size: 12px;
-        line-height: 1.4;
+        padding-bottom: 20px;
+        font-size: 10px;
+        line-height: 12px;
     }
 
     section.news .card-content a {
@@ -341,71 +525,324 @@
         font-size: 10px;
     }
 
-    section.news .swiper-slide {
-        display: flex;
-        gap: 12px;
-    }
+    /* ........................................................... */
 
-    /* ......................................... */
 
-    section.success .row {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+    section.success .row .left {
+        width: 100%;
     }
 
     section.success .row .left .top h2 {
-        padding: 14px;
-        line-height: 1.51;
-        font-size: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        line-height: 19px;
+        font-size: 15px;
     }
 
     section.success .row .left .bottom {
         background: #FF0000;
-        padding: 14px;
+        padding-top: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+
+    section.success .row .middle {
+        width: 100%;
+    }
+
+    section.success .row .right {
+        width: 100%;
     }
 
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 14px;
+        padding: 7px 40px 10px 40px;
     }
 
-    section.success .row .right .top h2 {
-        font-size: 15px;
-        text-align: center;
-        padding-top: 20px;
+    section.success .row .right .top svg {
+        font-size: 50px;
     }
 
     section.success .row .right .bottom {
         background-color: #000;
-        padding: 14;
+        padding: 30px 30px 30px 30px;
     }
 
     section.success .row .right .bottom h2 {
+        line-height: 25px;
         font-size: 20px;
-        line-height: 1.51;
     }
 
-    /* ................................................. */
-
-    section.rated .row .right {
-        align-self: center;
-    }
-
+    /* .................................................. */
+    
     section.rated .row .right h2 {
         font-size: 20px;
         color: #000;
+        width: 200px;
         padding-top: 10px;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
 
     section.rated .row .right a {
         background-color: #FF0000;
-        font-size: 10px;
+        font-size: 12px;
         padding: 10px;
+    }
+
+    /* ............................................................. */
+
+    section.family .left {
+        padding: 80px 50px 80px 50px;
+        align-self: center;
+    }
+
+    section.family .left h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    section.family .left .links {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-top: 20px;
+    }
+
+    section.family .left .links a {
+        padding: 12px;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    /* ................................................ */
+    
+    footer {
+        background: #000;
+        padding-top: 70px;
+    }
+
+    footer .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 27px;
+        padding-top: 40px;
+    }
+
+    footer .footer-links ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 30px;
+    }
+
+    footer .footer-links ul li a {
+        font-size: 10px;
+    }
+
+    footer .footer-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width : 575px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container-home {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container-logo-slider {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .container-sixteenk {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header .left{
+        width: 100px;
+    }
+
+    header .middle ul li a {
+        font-weight: 800;
+        font-size: 12px;
+        display: none;
+    }
+
+    header .right a {
+        border: 1px solid #fff;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    /* ..................................................... */
+
+    section.home .container-home {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+
+    section.home .container-home h3 {
+        font-size: 10px;
+    }
+
+    section.home .container-home h1 {
+        font-size: 28px;
+        padding-top: 17px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    section.home .container-home a {
+        padding: 10px;
+        background-color: #FF0000;
+        font-size: 10px;
+    }
+
+     /* ......................................................... */
+
+     section.news .heading h2 {
+        font-size: 20px;
+        color: #000;
+    }
+
+    section.news .card-content {
+        background: #000;
+        padding: 13px;
+    }
+
+    section.news .card-content h2 {
+        font-size: 14px;
+    }
+
+    section.news .card-content p {
+        padding-top: 10px;
+        font-family: sans-serif;
+        padding-bottom: 20px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    section.news .card-content a {
+        color: #fff;
+        background: #FF0000;
+        padding: 3px;
+        font-size: 10px;
+    }
+
+       /* ........................................................... */
+
+
+       section.success .row .left {
+        width: 100%;
+    }
+
+    section.success .row .left .top h2 {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        line-height: 15px;
+        font-size: 10px;
+    }
+
+    section.success .row .left .bottom {
+        background: #FF0000;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+    }
+
+    section.success .row .middle {
+        width: 100%;
+    }
+
+    section.success .row .middle img{
+        height: 100%;
+    }
+
+    section.success .row .right {
+        width: 100%;
+    }
+
+    section.success .row .right .top {
+        background-color: #FF0000;
+        padding: 10px 10px 10px 10px;
+    }
+
+    section.success .row .right .bottom {
+        background-color: #000;
+        padding: 15px;
+    }
+
+    section.success .row .right .bottom h2 {
+        line-height: 17px;
+        font-size: 15px;
     }
 
     /* .................................................. */
 
+    section.rated{
+        padding: 150px 0;
+    }
+    
+    section.rated .row{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 33px;
+    }
+    
+    section.rated .row .left img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    section.rated .row .right{
+        align-self: center;
+    }
+    
+    section.rated .row .right h2{
+        font-size: 20px;
+        color: #000;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    section.rated .row .right a{
+        background-color: #FF0000;
+        font-size: 12px;
+        padding: 12px;
+    }
+    
+    section.rated .row .right a:hover{
+        color: #FF0000;
+        border: 1px solid #FF0000;
+        background: transparent;
+        transition: all ease 1s;
+    }
 
     section.family .left {
         padding: 30px;
@@ -413,231 +850,54 @@
     }
 
     section.family .left h2 {
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 25px;
     }
 
     section.family .left .links {
         display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    section.family .left .links a {
+        padding: 7px;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    /* .......................................... */
+
+    footer {
+        background: #000;
+        padding-top: 50px;
+    }
+
+    footer .footer-logo{
+        max-width: 10px;
+    }
+
+    footer .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
         padding-top: 20px;
     }
 
-    section.family .left .links svg {
-        padding: 12px;
-        color: #FF0000;
-        background: #fff;
-    }
-
-    /* ........................................ */
-
-    
-footer{
-    background: #000;
-    padding-top: 130px;
-}
-
-footer .logo-footer{
-    display: block;
-    margin: auto;
-}
-
-footer .footer-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
-    padding-top: 62px;
-}
-
-footer .footer-links ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding-top: 25px;
-}
-
-footer .footer-links ul li a{
-    font-size: 10px;
-}
-
-footer .footer-bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding-top: 20px;
-    padding-bottom: 26px;
-    font-size: 10px;
-}
-
-}
-
-@media screen and (max-width : 575px){
-    .container {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-home {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-logo-slider {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-     /* ................................................... */
-
-     header .middle ul {
+    footer .footer-links ul {
         display: flex;
-        gap: 40px;
-        display: none;
+        gap: 10px;
+        padding-top: 10px;
     }
 
-    .parent{
-        flex: 1;
+    footer .footer-links ul li a {
+        font-size: 7px;
     }
 
-    /* ............................... */
-
-    section.home .container-home h3 {
-        font-size: 10px;
-        padding-bottom: 10px;
-    }
-
-    section.home .container-home h1 {
-        font-size: 20px;
-        padding-bottom: 10px;
-        padding-bottom: 20px;
-    }
-
-    section.home .container-home a {
-        padding: 8px;
-        background-color: #FF0000;
-        font-size: 10px;
-    }
-
-    /* ............................. */
-
-    section.news .heading h2 {
-        font-size: 20px;
-        color: #000;
-    }
-
-    section.news .swiper-button-prev:after {
-        font-size: 10px;
-        padding: 10px;
- }
-    
-    section.news .swiper-button-next:after {
-        font-size: 10px;
-        padding: 10px;
-        margin-left: 70px;
-    }
-
-    section.news .swiper-slide {
-        background: #fff;
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-    }
-
-    /* ....................................... */
-
-    
-section.success .row .left .top h2 {
-    padding: 15px;
-    line-height: 1.51;
-    font-size: 12px;
-}
-
-section.success .row .left .bottom {
-    background: #FF0000;
-    padding: 15px;
-}
-
-section.success .row .middle img{
-    width: 100%;
-    height: 100%;
-    filter: grayscale(1);
-}
-
-section.success .row .right .top{
-    background-color: #FF0000;
-    padding: 15px;
-}
-
-section.success .row .right .top h2{
-    font-size: 16px;
-    text-align: center;
-}
-
-section.success .row .right .bottom{
-    background-color: #000;
-    padding: 15px;
-}
-
-section.success .row .right .bottom h2{
-    font-size: 15px;
-}
-
-/* .................................................. */
-
-
-section.rated .row{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 35px;
-}
-
-/* .................................. */
-
-section.family .row{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    background-color: #FF0000;
-    position: relative;
-}
-
-/* ............................... */
-
-
-footer .footer-icons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-footer .footer-links ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
-    padding-top: 55px;
-}
-
-footer .footer-links ul li a{
-    font-size: 8px;
-}
-
-footer .footer-bottom {
-    font-size: 8px;
-text-align: center;
-}
-
-}
-
-
-@media only screen and (min-width : 1600px){
-    .container-sixteenk{
-        width : 1216px;
-        margin: 0 auto;
+    footer .footer-bottom {
+       text-align: center;
+       font-size: 8px;
+       padding-top: 10px;
     }
 }

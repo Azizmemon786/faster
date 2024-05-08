@@ -35,6 +35,7 @@ img {
 
 .container-sixteenk{
     width: 100%;
+    margin: 0 auto;
 }
 
 ul li a:hover {
@@ -47,7 +48,6 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    background: transparent;
     padding-top: 31px;
 }
 
@@ -75,16 +75,15 @@ header .right {
 
 header .right a {
     border: 1px solid #fff;
-    padding: 12px;
+    padding:13px 16px;
+    font-size: 14px;
 }
 
 header .right a:hover {
     border: 1px solid #FF0000;
     background: #FF0000;
-    padding: 12px;
     transition: ease 1s;
 }
-
 
 /* header end */
 /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
@@ -161,7 +160,7 @@ section.logo-slider .swiper-slide img {
 
 section.news {
     padding-top: 66px;
-    position: relative;
+    /* position: relative; */
 }
 
 section.news .heading {
@@ -184,6 +183,7 @@ section.news .news-prev{
 
 section.news .news-prev:after {
     font-size: 15px;
+    display: none;
 }
 
 section.news .news-next{
@@ -195,6 +195,7 @@ section.news .news-next{
 
 section.news .news-next:after {
     font-size: 15px;
+    display: none;
 }
 
 section.news .heading h2 {
@@ -296,7 +297,7 @@ section.success .row .middle{
 
 section.success .row .middle img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     filter: grayscale(1);
     max-height: 858px;
 }
@@ -350,6 +351,7 @@ section.rated .row{
 
 section.rated .row .left img{
     width: 100%;
+    height: 100%;
 }
 
 section.rated .row .right{
@@ -411,11 +413,6 @@ section.family .left .links a{
     align-items: center;
 }
 
-/* section.family .left .links svg{
-    color: #FF0000;
-    z-index:99;
-} */
-
 section.family .right img{
     width: 100%;
     height: 100%;
@@ -463,6 +460,7 @@ footer .footer-bottom {
     gap: 10px;
     padding-top: 60px;
     padding-bottom: 26px;
+    font-size: 16px;
 }
 
 footer .footer-bottom a:hover{
