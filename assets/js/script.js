@@ -1,9 +1,10 @@
 var swiper = new Swiper(".logoSwiper", {
-  slidesPerView: 7,
+  slidesPerView: 'auto',
   spaceBetween: 74,
-  autoplay: {
-    delay: 5000,
-  },    
+  loop:true,
+  // autoplay: {
+  //   delay: 5000,
+  // },    
   breakpoints: {
     275: {
       slidesPerView: 2,
@@ -14,12 +15,12 @@ var swiper = new Swiper(".logoSwiper", {
       spaceBetween: 74,
     },
     768: {
-      slidesPerView: 5,
+      slidesPerView: 'auto',
       spaceBetween: 74,
     },
 
     1024: {
-      slidesPerView: 6,
+      slidesPerView: 'auto',
       spaceBetween: 74,
     },
 }});
@@ -28,9 +29,9 @@ var swiper = new Swiper(".logoSwiper", {
   var swiper = new Swiper(".newsSwiper", {
     slidesPerView: 3,
     spaceBetween: 32,
-    autoplay: {
-        delay: 10000,
-      },    
+    // autoplay: {
+    //     delay: 10000,
+    //   },    
     navigation: {
       nextEl: ".news-next",
       prevEl: ".news-prev",
