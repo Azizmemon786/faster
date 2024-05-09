@@ -382,7 +382,7 @@ section.next .row .left p.red{
 
 section.next .row .right{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 40% 20% 40%;
     align-items: center;
 }
 
@@ -405,6 +405,8 @@ section.next .row .right .rmiddle {
 section.next .row .right .rmiddle h2{
     font-size: 40px;
     color: #FF0000;
+    /* padding-left: 45px; */
+    /* padding-right: 45px; */
 }
 
 section.next .row .right .rright {
@@ -413,7 +415,7 @@ section.next .row .right .rright {
 }
 
 section.next .row .right .rright img{
-    padding: 0px;
+    padding: 25px;
     display: block;
     margin: auto;
     width: 100%;
@@ -425,31 +427,28 @@ section.next .container h2{
 
 section.next .row2{
     display: grid;
-    grid-template-columns: 5% 15% 20% 20% 20% 20%;
+    grid-template-columns: 3% 17% 20% 20% 20% 20%;
     padding-top: 30px;
     align-items: center;
-    opacity: 20%;
+    opacity: 100%;
     padding-bottom: 20px;
-    border-bottom: 1px solid #fff;
+    /* border-bottom: 1px solid #fff; */
 }
 
-section.next .row3{
-    display: grid;
-    grid-template-columns: 5% 15% 20% 20% 20% 20%;
-    padding-top: 30px;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #fff;
-}
+
 
 section.next .row2 .one h2{
     font-size: 22px;
+    opacity: 20%;
+    text-align: center;
 }
 
 section.next .row2 .two p{
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 500;
+    opacity: 20%;
+    text-align: center;
 }
 
 section.next .row2 .three p{
@@ -457,6 +456,7 @@ section.next .row2 .three p{
     font-family: sans-serif;
     font-weight: 500;
     text-align: end;
+    opacity: 20%;
 }
 
 section.next .row2 .four{
@@ -468,24 +468,43 @@ section.next .row2 .five p{
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 500;
-    text-align: end;
+    text-align: center;
+    opacity: 20%;
 }
 
 section.next .row2 .six{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     justify-content: right;
+    align-items: center;
  }
 
+ section.next .row2 .six h3{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    opacity: 20%;
+ }
+
+ section.next .row3{
+    display: grid;
+    grid-template-columns: 3% 17% 20% 20% 20% 20%;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 20px;
+    border-top: 1px solid #ffffff3a;
+}
  
 section.next .row3 .one h2{
     font-size: 22px;
+    text-align: center;
 }
 
 section.next .row3 .two p{
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 500;
+    text-align: center;
 }
 
 section.next .row3 .three p{
@@ -498,6 +517,14 @@ section.next .row3 .three p{
 section.next .row3 .four{
    display: flex;
    justify-content: right;
+   align-items: center;
+   gap: 20px;
+}
+
+section.next .row3 .four h3{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 section.next .row3 .five p{
@@ -509,8 +536,15 @@ section.next .row3 .five p{
 
 section.next .row3 .six{
     display: flex;
-    gap: 40px;
+    gap: 30px;
     justify-content: right;
+    align-items: center;
+ }
+
+ section.next .row3 .six h3{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
  }
 
 /* section next end */
