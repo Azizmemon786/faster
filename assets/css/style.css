@@ -271,6 +271,7 @@ section.news .swiper-slide .card-img img {
 
 section.success {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 section.success .row {
@@ -368,8 +369,6 @@ section.success .row .right .bottom h2 {
 
 section.next {
     background: #000;
-    margin-top: 150px;
-    padding-bottom: 45px;
 }
 
 section.next .row {
@@ -378,7 +377,7 @@ section.next .row {
 }
 
 section.next .row .left {
-    margin-top: 85px;
+    padding-top: 85px;
 }
 
 section.next .row .left h2 {
@@ -444,9 +443,9 @@ section.next .row2 {
     display: grid;
     grid-template-columns: 4% 17% 26% 28% 10% 11%;
     align-items: center;
-    padding: 28px;
+    padding: 28px 0 0 0;
+    padding-bottom: 14px;
     padding-right: 0;
-    padding-bottom: 10px;
 }
 
 section.next .row2 .one {
@@ -503,6 +502,10 @@ section.next .row3 .four h3 {
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 500;
+}
+
+section.next .row4{
+    padding-bottom: 35px;
 }
 
 

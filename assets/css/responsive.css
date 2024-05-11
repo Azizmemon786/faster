@@ -793,6 +793,7 @@ section.next .row .left h2 {
 
     section.success{
         margin-top: 80px;
+        margin-bottom: 80px;
     }
 
     section.success .row {
@@ -815,6 +816,7 @@ section.next .row .left h2 {
     }
 
     section.success .row .middle img{
+        object-position: top;
         height: 500px;
     }
 
@@ -1192,6 +1194,7 @@ section.next .row .left h2 {
 
     section.success{
         margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     section.success .row {
@@ -1304,26 +1307,23 @@ section.next .row .left h2 {
     section.next .row .right .row {
         align-items: center;
         display: grid;
-        grid-template-columns: 100px 20px 100px;
-        grid-gap: 10px;
+        grid-template-columns: 110px 30px 110px;
         justify-content: left;
     }
 
     section.next .row .right .row .left-r img {
         background: #fff;
-        /* padding: 40px 35px; */
     }
 
     section.next .row .right .row .right-r img {
         background: #fff;
-        /* padding: 45px 30px; */
-        margin-left: 20px;
     }
 
     section.next .row .right .row .middle-r h2 {
         width: fit-content;
         color: #FF0000;
-        font-size: 18px;
+        font-size: 20px;
+        padding: 0;
     }
 
     section.next .container h2 {
