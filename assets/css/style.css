@@ -382,6 +382,7 @@ section.next .row .left {
 }
 
 section.next .row .left h2 {
+    margin-top: 15px;
     font-size: 50px;
 }
 
