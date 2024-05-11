@@ -138,7 +138,8 @@ section.home .container-home h1 span {
 
 section.home .container-home a {
     display: inline-block;
-    padding: 17px 20px;
+    padding: 16px 20px;
+    border: 1px solid #FF0000;
     background-color: #FF0000;
     font-size: 18px;
 }
@@ -147,7 +148,7 @@ section.home .container-home a:hover {
     color: #FFf;
     border: 1px solid #FFf;
     background: transparent;
-    transition: all ease 1s;
+    transition:all ease-in .5s;
 }
 
 /* home end */
@@ -551,6 +552,7 @@ section.rated .row .right h2 {
 section.rated .row .right a {
     display: inline-block;
     padding: 17px 33.5px;
+    border: 1px solid #FF0000;
     background-color: #FF0000;
     font-size: 18px;
 }
