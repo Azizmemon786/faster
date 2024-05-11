@@ -5,83 +5,101 @@
     }
 }
 
-@media only screen and (max-width : 1230px) {
+@media (max-width : 1230px) {
     .container {
-        max-width: 1024px;
-        margin: 0 auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 20px;
+        width: 100%;
     }
 
     .container-home {
-        max-width: 1024px;
-        margin: 0 auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 100%;
     }
 
     .container-logo-slider {
-        max-width: 1024px;
-        margin: 0 auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 100%;
     }
 
     .container-sixteenk {
         width: 100%;
-        margin: 0 auto;
+    }
+
+    header .container .left a {
+        width: 150px;
     }
 
     header .middle ul {
-        display: flex;
-        gap: 30px;
+        gap: 35px;
     }
 
     header .middle ul li a {
-        font-weight: 800;
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    header .right {
+        padding-right: 0px;
     }
 
     header .right a {
-        border: 1px solid #fff;
-        padding: 10px 13px;
-        font-size: 12px;
+        padding: 12px 16px;
+        font-size: 13px;
     }
 
-    /* ............................................................... */
+    /* header end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* home start */
 
     section.home .container-home {
-        padding-top: 160px;
+        padding-top: 240px;
         padding-bottom: 200px;
     }
 
     section.home .container-home h3 {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     section.home .container-home h1 {
-        font-size: 55px;
+        font-size: 60px;
         padding-top: 15px;
-        margin-bottom: 50px;
-        line-height: 55px;
+        line-height: 60px;
+        margin-bottom: 30px;
     }
 
     section.home .container-home a {
-        padding: 15px 17px;
-        background-color: #FF0000;
+        padding: 15px 18px;
         font-size: 16px;
     }
 
-    /* ....................................................... */
+    /* home end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* logo-slider start */
+
+    section.logo-slider {
+        padding: 0 50px;
+        padding-top: 45px;
+    }
+
+    /* section logo-slider end*/
+    /* ..................................... */
+    /* section news start */
+
+    section.news {
+        padding-top: 105px;
+    }
+
+    section.news .news-prev {
+        padding: 15px 20px;
+    }
+
+    section.news .news-next {
+        padding: 15px 20px;
+    }
 
     section.news .heading h2 {
-        font-size: 40px;
-        color: #000;
+        font-size: 45px;
     }
 
     section.news .card-content {
-        background: #000;
-        padding: 20px 25px;
+        padding: 25px 50px 25px 30px;
     }
 
     section.news .card-content h2 {
@@ -89,93 +107,194 @@
     }
 
     section.news .card-content p {
-        padding-top: 10px;
-        font-family: sans-serif;
-        padding-bottom: 20px;
-        font-size: 14px;
-        line-height: 17px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    section.news .card-content .learn {
+        width: 160px;
     }
 
     section.news .card-content a {
-        color: #fff;
-        background: #FF0000;
-        padding: 3px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    /* ...................................................... */
+    /* section news end */
+    /* ............................ */
+    /* section success start */
 
-    section.success .row .left {
-        width: 290px;
+    section.success .row{
+        grid-template-columns: 300px 280px 400px;
+    }
+
+
+    section.success .row .left .top  {
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     section.success .row .left .top h2 {
-        padding-top: 85px;
-        padding-right: 70px;
-        padding-bottom: 86px;
-        padding-left: 70px;
-        line-height: 25px;
+        line-height: 26px;
         font-size: 20px;
     }
 
-    section.success .row .middle {
-        width: 300px;
-    }
-
-    section.success .row .right {
-        width: 400px;
+    section.success .row .left .bottom {
+        padding-top: 30px;
+        padding-right: 50px;
+        padding-bottom: 30px;
+        padding-left: 50px;
     }
 
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 7px 90px 20px 70px;
+        padding: 0px 100px 0px 100px;
+
+    }
+
+    section.success .row .right .top h2 {
+        font-size: 20px;
+        text-align: center;
     }
 
     section.success .row .right .bottom {
         background-color: #000;
-        padding: 46px 60px 47px 60px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     section.success .row .right .bottom h2 {
-        line-height: 45px;
-        font-size: 45px;
+        line-height: 55px;
+        font-size: 40px;
     }
 
-    /* ............................................................................. */
+    /* sectin success end */
+    /* ........................... */
+    /* section next start */
+
+
+section.next .row .left h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    section.next .row .left p {
+        font-size: 13px;
+    }
+
+    section.next .row .left p.red {
+        margin-top: 45px;
+        color: #FF0000;
+        margin-bottom: 75px;
+    }
+
+    section.next .row .right {
+        margin-top: 79px;
+        padding-left: 100px;
+    }
+
+    section.next .row .right .row {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 225px 70px 225px;
+        grid-gap: 35px;
+        justify-content: end;
+    }
+
+    section.next .row .right .row .right-r img {
+        background: #fff;
+        padding: 75px 60px;
+    }
+
+    section.next .container h2 {
+        font-size: 20px;
+    }
+
+    section.next .row2 p {
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    section.next .row2 .two {
+        padding-left: 30px;
+    }
+
+    section.next .row2 .three {
+        padding-left: 100px;
+    }
+
+    section.next .row2 .four {
+        padding-left: 100px;
+    }
+
+    section.next .row2 .five {
+        width: fit-content;
+        padding-left: 10px;
+    }
+
+    section.next .row2 .six {
+        padding-right: 0px;
+    }
+
+    /* section next end */
+    /* ........................... */
+    /* section rated start */
+
+    section.rated .row {
+        grid-template-columns: 55% 40%;
+    }
+
+    section.rated .row .right {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
 
     section.rated .row .right h2 {
-        font-size: 40px;
-        color: #000;
-        width: 400px;
+        font-size: 45px;
         padding-top: 20px;
         padding-bottom: 40px;
     }
 
     section.rated .row .right a {
-        background-color: #FF0000;
         font-size: 16px;
-        padding: 15px 17px;
+        padding: 15px 18px;
     }
 
-    /* ................................................................................ */
+    /* section.rated end  */
+    /* ............................. */
+    /* section family start */
 
     section.family .left {
-        padding: 160px 100px 160px 100px;
-        align-self: center;
+        padding: 150px 100px 150px 100px;
     }
 
     section.family .left h2 {
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 65px;
+        line-height: 65px;
+    }
+
+    section.family .left .links {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-top: 30px;
     }
 
     section.family .left .links a {
-        padding: 16px;
-        background-color: #fff;
+        display: flex;
         align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 68px;
+        height: 66px;
     }
 
-    /* .......................................................................................... */
+    /* section family end */
+    /* ............................... */
+    /* footer start */
 
     footer {
         background: #000;
@@ -186,20 +305,20 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 42px;
-        padding-top: 50px;
+        gap: 37px;
+        padding-top: 65px;
     }
 
     footer .footer-links ul {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
-        padding-top: 45px;
+        gap: 40px;
+        padding-top: 55px;
     }
 
     footer .footer-links ul li a {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     footer .footer-bottom {
@@ -207,182 +326,287 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding-top: 40px;
-        padding-bottom: 20px;
-        font-size: 14px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 16px;
     }
 }
 
-@media only screen and (max-width : 1024px) {
+
+@media (max-width : 1024px) {
     .container {
+        padding: 0 20px;
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-home {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-logo-slider {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-sixteenk {
         width: 100%;
-        margin: 0 auto;
     }
 
-    header .container .row {
-        display: grid;
-        grid-template-columns: 20% 60% 20%;
-        align-items: center;
-    }
-
-    header .left img{
+    header .container .left a {
         width: 120px;
     }
 
     header .middle ul {
-        display: flex;
+        gap: 25px;
         justify-content: center;
-        gap: 20px;
     }
 
     header .middle ul li a {
-        font-weight: 800;
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    header .right {
+        padding-right: 0px;
     }
 
     header .right a {
-        border: 1px solid #fff;
-        padding: 10px 13px;
-        font-size: 10px;
+        padding: 10px 14px;
+        font-size: 12px;
     }
 
-    /* ............................................................. */
+    /* header end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* home start */
 
     section.home .container-home {
-        padding-top: 130px;
-        padding-bottom: 150px;
-        text-align: center;
+        padding-top: 200px;
+        padding-bottom: 180px;
     }
 
     section.home .container-home h3 {
-        font-size: 12px;
-    }
-
-    section.home .container-home h1 {
-        font-size: 45px;
-        padding-top: 17px;
-        line-height: 45px;
-        margin-bottom: 30px;
-    }
-
-    section.home .container-home a {
-        padding: 13px;
-        background-color: #FF0000;
         font-size: 14px;
     }
 
-    /* ....................................................... */
-
-    section.news .heading h2 {
-        font-size: 30px;
-        color: #000;
+    section.home .container-home h1 {
+        font-size: 50px;
+        padding-top: 13px;
+        line-height: 50px;
+        margin-bottom: 23px;
     }
 
-    section.news .card-content {
-        background: #000;
+    section.home .container-home a {
+        padding: 12px 15px;
+        font-size: 15px;
+    }
+
+    /* home end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* logo-slider start */
+
+    section.logo-slider {
+        padding: 0 60px;
+        padding-top: 40px;
+    }
+
+    /* section logo-slider end*/
+    /* ..................................... */
+    /* section news start */
+
+    section.news {
+        padding-top: 90px;
+    }
+
+    section.news .news-prev {
         padding: 15px 20px;
     }
 
+    section.news .news-next {
+        padding: 15px 20px;
+    }
+
+    section.news .heading h2 {
+        font-size: 40px;
+    }
+
+    section.news .card-content {
+        padding: 20px 40px 20px 20px;
+    }
+
     section.news .card-content h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     section.news .card-content p {
-        padding-top: 10px;
-        font-family: sans-serif;
-        padding-bottom: 20px;
-        font-size: 12px;
-        line-height: 15px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    section.news .card-content .learn {
+        width: 140px;
     }
 
     section.news .card-content a {
-        color: #fff;
-        background: #FF0000;
-        padding: 3px;
-        font-size: 10px;
+        font-size: 12px;
     }
 
-    /* ............................................................. */
+    /* section news end */
+    /* ............................ */
+    /* section success start */
 
-    section.success .row .left {
-        width: 100%;
+    section.success .row{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+
+    section.success .row .left .top  {
+        padding-left: 20px; 
+        padding-right: 20px;
     }
 
     section.success .row .left .top h2 {
-        padding-top: 75px;
+        line-height: 24px;
+        font-size: 18px;
+    }
+
+    section.success .row .left .bottom {
         padding-right: 50px;
-        padding-bottom: 70px;
         padding-left: 50px;
-        line-height: 17px;
-        font-size: 17px;
-    }
-
-    section.success .row .middle {
-        width: 100%;
-    }
-
-    section.success .row .right {
-        width: 100%;
     }
 
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 7px 90px 20px 70px;
+        padding: 7px 70px 20px 70px;
+
     }
 
-    section.success .row .right .bottom {
-        background-color: #000;
-        padding: 60px 40px 50px 40px;
+    section.success .row .right .top h2 {
+        font-size: 18px;
+        text-align: center;
     }
+
+    
 
     section.success .row .right .bottom h2 {
-        line-height: 35px;
+        line-height: 40px;
+        font-size: 28px;
+    }
+    /* sectin success end */
+    /* ........................... */
+    /* section next start */
+
+    section.next .row .left h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    section.next .row .left p {
+        font-size: 12px;
+    }
+
+    section.next .row .left p.red {
+        margin-top: 40px;
+        color: #FF0000;
+        margin-bottom: 60px;
+    }
+
+    section.next .row .right {
+        margin-top: 79px;
+        padding-left: 100px;
+    }
+
+    section.next .row .right .row {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 175px 60px 180px;
+        grid-gap: 35px;
+        justify-content: end;
+    }
+
+    section.next .row .right .row .right-r img {
+        background: #fff;
+        padding: 62px 60px;
+    }
+
+    section.next .row .right .row .middle-r h2 {
+        width: fit-content;
+        color: #FF0000;
         font-size: 30px;
     }
 
-    /* ....................................................... */
+    section.next .container h2 {
+        font-size: 18px;
+    }
+
+    section.next .row2 p {
+        font-size: 12px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    section.next .row2 .two {
+        padding-left: 20px;
+        text-wrap: nowrap;
+    }
+
+    section.next .row2 .three {
+        text-wrap: nowrap;
+        padding-left: 80px;
+    }
+
+    section.next .row2 .four {
+        padding-left: 70px;
+    }
+
+    section.next .row2 .five {
+        width: fit-content;
+        padding-left: 5px;
+    }
+
+    section.next .row2 .six {
+        padding-right: 0px;
+    }
+
+    /* section next end */
+    /* ........................... */
+    /* section rated start */
+
+    section.rated .row {
+        grid-template-columns: 50% 45%;
+    }
+
+    section.rated .row .left img {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    section.rated .row .right {
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
 
     section.rated .row .right h2 {
-        font-size: 30px;
-        color: #000;
-        width: 300px;
+        font-size: 40px;
         padding-top: 15px;
         padding-bottom: 30px;
     }
 
     section.rated .row .right a {
-        background-color: #FF0000;
         font-size: 14px;
         padding: 12px 15px;
     }
 
-    /* .................................................................... */
+    /* section.rated end  */
+    /* ............................. */
+    /* section family start */
 
     section.family .left {
-        padding: 130px 70px 130px 70px;
-        align-self: center;
+        padding: 80px 50px 80px 50px;
     }
 
     section.family .left h2 {
-        font-size: 45px;
+        font-size: 50px;
         line-height: 50px;
     }
 
@@ -390,40 +614,45 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        padding-top: 40px;
+        padding-top: 30px;
     }
 
     section.family .left .links a {
-        padding: 14px;
-        background-color: #fff;
+        display: flex;
         align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 55px;
+        height: 55px;
     }
 
-    /* ............................................. */
+    /* section family end */
+    /* ............................... */
+    /* footer start */
 
     footer {
         background: #000;
-        padding-top: 100px;
+        padding-top: 80px;
     }
 
     footer .footer-icons {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 42px;
-        padding-top: 50px;
+        gap: 30px;
+        padding-top: 40px;
     }
 
     footer .footer-links ul {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
-        padding-top: 35px;
+        gap: 30px;
+        padding-top: 40px;
     }
 
     footer .footer-links ul li a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     footer .footer-bottom {
@@ -431,180 +660,344 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-        padding-top: 40px;
-        padding-bottom: 20px;
-        font-size: 12px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 14px;
     }
 }
 
-@media only screen and (max-width : 768px) {
+@media (max-width : 768px) {
     .container {
+        padding: 0 20px;
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-home {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-logo-slider {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-sixteenk {
         width: 100%;
-        margin: 0 auto;
+    }
+
+    header .container .left a {
+        width: 120px;
+    }
+
+    header .middle ul {
+        gap: 25px;
+        justify-content: center;
     }
 
     header .middle ul li a {
-        font-weight: 800;
-        font-size: 12px;
         display: none;
+        font-size: 12px;
+    }
+
+    header .right {
+        padding-right: 0px;
     }
 
     header .right a {
-        border: 1px solid #fff;
-        padding: 10px;
+        padding: 10px 12px;
         font-size: 10px;
     }
 
-    /* ..................................................... */
+    /* header end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* home start */
 
     section.home .container-home {
-        padding-top: 100px;
-        padding-bottom: 120px;
-        text-align: center;
+        padding-top: 170px;
+        padding-bottom: 150px;
     }
 
     section.home .container-home h3 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     section.home .container-home h1 {
         font-size: 35px;
-        padding-top: 17px;
-        line-height: 35px;
+        padding-top: 10px;
+        line-height: 40px;
         margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     section.home .container-home a {
-        padding: 10px;
-        background-color: #FF0000;
+        padding: 10px 12px;
         font-size: 12px;
     }
 
-    /* ......................................................... */
+    /* home end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* logo-slider start */
+
+    section.logo-slider {
+        padding: 0 60px;
+        padding-top: 40px;
+    }
+
+    /* section logo-slider end*/
+    /* ..................................... */
+    /* section news start */
+
+    section.news {
+        padding-top: 70px;
+    }
+
+    section.news .news-prev {
+        padding: 15px 20px;
+    }
+
+    section.news .news-next {
+        padding: 15px 20px;
+    }
 
     section.news .heading h2 {
-        font-size: 25px;
-        color: #000;
+        font-size: 30px;
     }
 
     section.news .card-content {
-        background: #000;
-        padding: 10px 15px;
+        padding: 15px 30px 15px 20px;
     }
 
     section.news .card-content h2 {
-        font-size: 14px;
-    }
-
-    section.news .card-content p {
-        padding-top: 10px;
-        font-family: sans-serif;
-        padding-bottom: 20px;
-        font-size: 10px;
-        line-height: 12px;
-    }
-
-    section.news .card-content a {
-        color: #fff;
-        background: #FF0000;
-        padding: 3px;
-        font-size: 10px;
-    }
-
-    /* ........................................................... */
-
-
-    section.success .row .left {
-        width: 100%;
-    }
-
-    section.success .row .left .top h2 {
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        padding-left: 20px;
-        line-height: 19px;
         font-size: 15px;
     }
 
-    section.success .row .left .bottom {
-        background: #FF0000;
-        padding-top: 40px;
-        padding-right: 40px;
-        padding-bottom: 40px;
-        padding-left: 40px;
+    section.news .card-content p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
+    section.news .card-content .learn {
+        width: 140px;
+    }
+
+    section.news .card-content a {
+        display: inline-block;
+        font-size: 11px;
+    }
+
+    /* section news end */
+    /* ............................ */
+    /* section success start */
+
+    section.success{
+        margin-top: 80px;
+    }
+
+    section.success .row {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+    }
+
+    section.success .row .left {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
     section.success .row .middle {
-        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
+    section.success .row .middle img{
+        height: 500px;
+    }
+
+    
     section.success .row .right {
-        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.success .row .left .top{
+        align-items: center;
+        padding-bottom: 0;
+        padding-left: 30px;
+        padding-right: 100px;
+    }
+
+    section.success .row .left .top h2 {
+        line-height: 20px;
+        font-size: 18px;
+    }
+
+    section.success .row .left .bottom {
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 7px 40px 10px 40px;
+        padding: 7px 50px 20px 50px;
+
     }
 
-    section.success .row .right .top svg {
-        font-size: 50px;
+    section.success .row .right .top h2 {
+        font-size: 18px;
+        text-align: center;
     }
-
-    section.success .row .right .bottom {
-        background-color: #000;
-        padding: 30px 30px 30px 30px;
-    }
-
-    section.success .row .right .bottom h2 {
-        line-height: 25px;
-        font-size: 20px;
-    }
-
-    /* .................................................. */
     
-    section.rated .row .right h2 {
+    /* sectin success end */
+    /* ........................... */
+    /* section next start */
+
+    section.next{
+        margin-top: 80px;
+    }
+
+    section.next .row {
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+
+    section.next .row .left h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    section.next .row .left p {
+        font-size: 12px;
+    }
+
+    section.next .row .left p.red {
+        margin-top: 40px;
+        color: #FF0000;
+        margin-bottom: 60px;
+    }
+
+    section.next .row .right {
+        margin-top: 79px;
+        padding-left: 100px;
+    }
+
+    section.next .row .right .row {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 120px 40px 120px;
+        grid-gap: 20px;
+        justify-content: end;
+    }
+
+    section.next .row .right .row .left-r img {
+        background: #fff;
+        padding: 40px 35px;
+    }
+
+    section.next .row .right .row .right-r img {
+        background: #fff;
+        padding: 45px 30px;
+    }
+
+    section.next .row .right .row .middle-r h2 {
+        width: fit-content;
+        color: #FF0000;
         font-size: 20px;
-        color: #000;
-        width: 200px;
-        padding-top: 10px;
-        padding-bottom: 20px;
+    }
+
+    section.next .container h2 {
+        font-size: 16px;
+    }
+
+    section.next .row2 p {
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    section.next .row2 .one h3{
+        font-size: 16px;
+        text-align: start;
+    }
+
+    section.next .row2 .two {
+        padding-left: 10px;
+        text-wrap: nowrap;
+    }
+
+    section.next .row2 .three {
+        text-wrap: nowrap;
+        padding-left: 50px;
+    }
+
+    section.next .row2 .four {
+        padding-left: 60px;
+    }
+
+    section.next .row2 .five {
+        width: fit-content;
+        padding-left: 5px;
+    }
+
+    section.next .row2 .six{
+        gap: 5px;
+    }
+
+    section.next .row3 .four{
+        gap: 5px;
+    }
+    section.next .row3 .four h3{
+        font-size: 10px;
+    }
+
+    /* section next end */
+    /* ........................... */
+    /* section rated start */
+
+    section.rated {
+        padding-top: 80px;
+    }
+
+    section.rated .row {
+        grid-template-columns: 55% 45%;
+        grid-gap: 20px;
+    }
+
+    section.rated .row .left img {
+        width: 100%;
+    }
+
+    section.rated .row .right {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+    section.rated .row .right h2 {
+        font-size: 28px;
+        padding-top: 15px;
+        padding-bottom: 30px;
     }
 
     section.rated .row .right a {
-        background-color: #FF0000;
         font-size: 12px;
-        padding: 10px;
+        padding: 10px 12px;
     }
 
-    /* ............................................................. */
+    /* section.rated end  */
+    /* ............................. */
+    /* section family start */
 
     section.family .left {
-        padding: 80px 50px 80px 50px;
-        align-self: center;
+        padding: 50px 35px;
     }
 
     section.family .left h2 {
-        font-size: 35px;
+        font-size: 40px;
         line-height: 40px;
     }
 
@@ -616,24 +1009,31 @@
     }
 
     section.family .left .links a {
-        padding: 12px;
-        background-color: #fff;
+        display: flex;
         align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        flex-wrap: wrap;
+        padding: 0 10px;
     }
 
-    /* ................................................ */
-    
+    /* section family end */
+    /* ............................... */
+    /* footer start */
+
     footer {
         background: #000;
-        padding-top: 70px;
+        padding-top: 60px;
     }
 
     footer .footer-icons {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 27px;
-        padding-top: 40px;
+        gap: 20px;
+        padding-top: 30px;
     }
 
     footer .footer-links ul {
@@ -641,266 +1041,463 @@
         align-items: center;
         justify-content: center;
         gap: 20px;
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     footer .footer-links ul li a {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     footer .footer-bottom {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
         padding-top: 30px;
-        padding-bottom: 15px;
-        font-size: 10px;
+        padding-bottom: 30px;
+        font-size: 12px;
     }
-
 }
 
-@media only screen and (max-width : 575px) {
+@media (max-width : 575px) {
     .container {
+        padding: 0 20px;
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-home {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-logo-slider {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 30px;
     }
 
     .container-sixteenk {
         width: 100%;
-        margin: 0 auto;
     }
 
-    header .left{
+    header .container .left a {
         width: 100px;
     }
 
+    header .middle ul {
+        gap: 25px;
+        justify-content: center;
+    }
+
     header .middle ul li a {
-        font-weight: 800;
-        font-size: 12px;
         display: none;
+        font-size: 12px;
+    }
+
+    header .right {
+        padding-right: 0px;
     }
 
     header .right a {
-        border: 1px solid #fff;
         padding: 10px;
         font-size: 10px;
     }
 
-    /* ..................................................... */
+    /* header end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* home start */
 
     section.home .container-home {
         padding-top: 100px;
         padding-bottom: 100px;
-        text-align: center;
     }
 
     section.home .container-home h3 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     section.home .container-home h1 {
-        font-size: 28px;
-        padding-top: 17px;
-        line-height: 35px;
-        margin-bottom: 20px;
+        font-size: 25px;
+        padding-top: 10px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     section.home .container-home a {
         padding: 10px;
-        background-color: #FF0000;
-        font-size: 10px;
+        font-size: 12px;
     }
 
-     /* ......................................................... */
+    /* home end */
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,, */
+    /* logo-slider start */
+
+    section.logo-slider {
+        padding: 0 30px;
+        padding-top: 40px;
+        display: block;
+    }
+
+    /* section logo-slider end*/
+    /* ..................................... */
+    /* section news start */
+
+    section.news {
+        padding-top: 70px;
+    }
+
+    section.news .news-prev {
+        padding: 15px 20px;
+    }
+
+    section.news .news-next {
+        padding: 15px 20px;
+    }
+
+    section.news .heading h2 {
+        font-size: 22px;
+    }
 
     section.news .card-content {
-        background: #000;
-        padding: 13px;
+        padding: 15px 20px 15px 20px;
     }
 
     section.news .card-content h2 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     section.news .card-content p {
-        padding-top: 10px;
-        font-family: sans-serif;
-        padding-bottom: 20px;
-        font-size: 10px;
-        line-height: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    section.news .card-content .learn {
+        width: 140px;
     }
 
     section.news .card-content a {
-        color: #fff;
-        background: #FF0000;
-        padding: 3px;
-        font-size: 10px;
+        display: inline-block;
+        font-size: 11px;
     }
 
-       /* ........................................................... */
-
-
-       section.success .row .left {
+    section.news .swiper-slide .card-img img {
         width: 100%;
+        height: 250px;
     }
 
-    section.success .row .left .top h2 {
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        line-height: 15px;
-        font-size: 10px;
+    /* section news end */
+    /* ............................ */
+    /* section success start */
+
+    section.success{
+        margin-top: 60px;
     }
 
-    section.success .row .left .bottom {
-        background: #FF0000;
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-bottom: 1px;
-        padding-left: 10px;
+    section.success .row {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
     }
 
+    section.success .row .left {
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
     section.success .row .middle {
-        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     section.success .row .middle img{
-        height: 100%;
+        /* aspect-ratio: 2/1; */
+        object-position: top;
+        height: 300px;
     }
 
+    
     section.success .row .right {
-        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section.success .row .left .top{
+        align-items: center;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section.success .row .left .top h2 {
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    section.success .row .left .bottom {
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 10px 10px 10px 10px;
+        padding: 7px 20px 20px 20px;
+
     }
 
-    section.success .row .right .bottom {
-        background-color: #000;
-        padding: 15px;
+    section.success .row .right .top h2 {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        padding: 0;
+    }
+
+    section.success .row .right .bottom{
+        padding: 10px;
     }
 
     section.success .row .right .bottom h2 {
-        line-height: 17px;
-        font-size: 15px;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0;
+    }
+   
+
+    /* sectin success end */
+    /* ........................... */
+    /* section next start */
+
+    section.next{
+        margin-top: 60px;
     }
 
-    /* .................................................. */
-
-    section.rated{
-        padding: 150px 0;
-    }
-    
-    section.rated .row{
+    section.next .row {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 33px;
-    }
-    
-    section.rated .row .left img{
-        width: 100%;
-        height: 100%;
-    }
-    
-    section.rated .row .right{
-        align-self: center;
-    }
-    
-    section.rated .row .right h2{
-        font-size: 20px;
-        color: #000;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    
-    section.rated .row .right a{
-        background-color: #FF0000;
-        font-size: 12px;
-        padding: 12px;
-    }
-    
-    section.rated .row .right a:hover{
-        color: #FF0000;
-        border: 1px solid #FF0000;
-        background: transparent;
-        transition: all ease 1s;
+        grid-template-columns: 100%;
     }
 
-    /* ............................................. */
+    section.next .row .left h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    section.next .row .left p {
+        font-size: 12px;
+    }
+
+    section.next .row .left p.red {
+        margin-top: 40px;
+        color: #FF0000;
+        margin-bottom: 40px;
+    }
+
+    section.next .row .right {
+        margin-top: 0px;
+        padding: 0;
+        justify-content: left;
+    }
+
+    section.next .row .right .row {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 100px 20px 100px;
+        grid-gap: 10px;
+        justify-content: left;
+    }
+
+    section.next .row .right .row .left-r img {
+        background: #fff;
+        /* padding: 40px 35px; */
+    }
+
+    section.next .row .right .row .right-r img {
+        background: #fff;
+        /* padding: 45px 30px; */
+        margin-left: 20px;
+    }
+
+    section.next .row .right .row .middle-r h2 {
+        width: fit-content;
+        color: #FF0000;
+        font-size: 18px;
+    }
+
+    section.next .container h2 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    section.next .row2{
+        grid-template-columns: 20% 35% 30%;
+        grid-gap: 10px;
+        padding:30px 0;
+    }
+
+    section.next .row2 p {
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
+
+    section.next .row2 .one h3{
+        font-size: 16px;
+    }
+
+    section.next .row2 .two {
+        padding-left: 0px;
+        text-wrap: nowrap;
+    }
+
+    section.next .row2 .three {
+        text-wrap: nowrap;
+        padding-left: 0px;
+    }
+
+    section.next .row2 .four {
+        padding-left: 0px;
+    }
+
+    section.next .row2 .five {
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    section.next .row2 .six{
+        gap: 5px;
+        justify-content: left;
+    }
+
+    section.next .row3 .four{
+        gap: 5px;
+        justify-content: left;
+    }
+    section.next .row3 .four h3{
+        font-size: 10px;
+    }
+
+    /* section next end */
+    /* ........................... */
+    /* section rated start */
+
+    section.rated {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    section.rated .row {
+        grid-template-columns: 100%;
+        grid-gap: 20px;
+    }
+
+    section.rated .row .left img {
+        width: 100%;
+    }
+
+    section.rated .row .right {
+        padding-top: 20px;
+    }
+
+    section.rated .row .right h2 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    section.rated .row .right a {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    /* section.rated end  */
+    /* ............................. */
+    /* section family start */
+
+    section.family{
+        margin-top: 0px;
+    }
+
+    section.family .row{
+        grid-template-columns: 1fr;
+    }
 
     section.family .left {
-        padding: 30px;
-        align-self: center;
+        padding: 60px 30px;
     }
 
     section.family .left h2 {
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 30px;
+        line-height: 30px;
     }
 
     section.family .left .links {
         display: flex;
         align-items: center;
-        gap: 5px;
+        gap: 10px;
+        padding-top: 20px;
     }
 
     section.family .left .links a {
-        padding: 7px;
-        background-color: #fff;
+        display: flex;
         align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        flex-wrap: wrap;
+        padding: 0 8px;
     }
 
-    /* .......................................... */
+    /* section family end */
+    /* ............................... */
+    /* footer start */
 
     footer {
         background: #000;
-        padding-top: 50px;
+        padding-top: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    footer .footer-logo{
-        max-width: 10px;
+    footer .logo-footer{
+        width: 100px;
     }
 
     footer .footer-icons {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 10px;
-        padding-top: 20px;
+        gap: 20px;
+        padding-top: 30px;
     }
 
     footer .footer-links ul {
         display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 10px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     footer .footer-links ul li a {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     footer .footer-bottom {
-       text-align: center;
-       font-size: 8px;
-       padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 12px;
+        text-align: center;
     }
-
-
 }

@@ -108,8 +108,8 @@ section.home {
 }
 
 section.home .container-home {
-    padding-top: 257px;
-    padding-bottom: 209px;
+    padding-top: 250px;
+    padding-bottom: 200px;
     text-align: center;
 }
 
@@ -191,7 +191,6 @@ section.news .news-prev {
 }
 
 section.news .news-prev:after {
-    font-size: 15px;
     display: none;
 }
 
@@ -203,7 +202,6 @@ section.news .news-next {
 }
 
 section.news .news-next:after {
-    font-size: 15px;
     display: none;
 }
 
@@ -211,6 +209,7 @@ section.news .heading h2 {
     font-size: 50px;
     color: #000;
 }
+
 
 section.news .card-content {
     background: #000;
@@ -257,11 +256,10 @@ section.news .swiper {
 }
 
 section.news .swiper-slide {
-    background: #fff;
     display: flex;
 }
 
-section.news .swiper-slide img {
+section.news .swiper-slide .card-img img {
     display: block;
     object-fit: cover;
     filter: grayscale(1);
@@ -272,37 +270,40 @@ section.news .swiper-slide img {
 /* section success start */
 
 section.success {
-    padding-top: 150px;
+    margin-top: 150px;
 }
 
 section.success .row {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 384px 336px 495px;
+    justify-content: center;
 }
 
 section.success .row .left {
-    width: 384px;
+    height: 100%;
+    display: grid;
 }
+
 
 section.success .row .left .top {
     background: #000;
+    padding-right: 77px;
+    padding-left: 75px;
+    display: flex;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
 
 section.success .row .left .top h2 {
-    padding-top: 96px;
-    padding-right: 77px;
-    padding-bottom: 93px;
-    padding-left: 75px;
     line-height: 31px;
     font-size: 22px;
 }
 
 section.success .row .left .bottom {
     background: #FF0000;
-    padding-top: 83px;
     padding-right: 81px;
-    padding-bottom: 56px;
-    padding-left: 79px;
+    padding-left: 79px; 
 }
 
 section.success .row .left .bottom svg {
@@ -313,18 +314,23 @@ section.success .row .left .bottom svg {
 }
 
 section.success .row .middle {
-    width: 338px;
+    /* width: 338px; */
+    height: 100%;
+    display: grid;
+
 }
 
 section.success .row .middle img {
     width: 100%;
     height: 100%;
     filter: grayscale(1);
-    max-height: 858px;
+    /* max-height: 858px; */
 }
 
 section.success .row .right {
-    width: 495px;
+    /* width: 495px; */
+    height: 100%;
+    display: grid;
 }
 
 section.success .row .right .top {
@@ -505,11 +511,12 @@ section.next .row3 .four h3 {
 
 section.rated {
     padding: 150px 0;
+    padding-bottom: 60px;
 }
 
 section.rated .row {
     display: grid;
-    grid-template-columns: 56% 44%;
+    grid-template-columns: 56% 40%;
     gap: 33px;
 }
 
@@ -519,8 +526,8 @@ section.rated .row .left img {
 }
 
 section.rated .row .right {
-    padding-top: 118px;
-    padding-bottom: 113px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 section.rated .row .right h2 {

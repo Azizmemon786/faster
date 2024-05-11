@@ -2,24 +2,29 @@ var swiper = new Swiper(".logoSwiper", {
   slidesPerView: 'auto',
   spaceBetween: 74,
   loop:true,
-  // autoplay: {
-  //   delay: 5000,
-  // },    
+  autoplay: {
+    delay: 3000,
+  },    
   breakpoints: {
-    275: {
-      slidesPerView: 2,
-      spaceBetween: 100,
+    290: {
+      slidesPerView: 'auto',
+      spaceBetween: 30,
     },
     575: {
-      slidesPerView: 4,
-      spaceBetween: 74,
+      slidesPerView: 'auto',
+      spaceBetween: 40,
     },
     768: {
       slidesPerView: 'auto',
-      spaceBetween: 74,
+      spaceBetween: 50,
     },
 
     1024: {
+      slidesPerView: 'auto',
+      spaceBetween: 60,
+    },
+
+    1216: {
       slidesPerView: 'auto',
       spaceBetween: 74,
     },
@@ -29,23 +34,35 @@ var swiper = new Swiper(".logoSwiper", {
   var swiper = new Swiper(".newsSwiper", {
     slidesPerView: 3,
     spaceBetween: 32,
-    // autoplay: {
-    //     delay: 10000,
-    //   },    
+    autoplay: {
+        delay: 5000,
+      },    
     navigation: {
       nextEl: ".news-next",
       prevEl: ".news-prev",
     },
     breakpoints: {
-    275: {
-      slidesPerView: 1,
-      spaceBetween: 32,
+      290: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      575: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 25,
     },
-    575: {
+
+    1216: {
       slidesPerView: 3,
       spaceBetween: 32,
     },
-
   }});
 
 
