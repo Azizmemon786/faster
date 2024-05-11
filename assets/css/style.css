@@ -13,9 +13,17 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 img {
     max-width: 100%;
     object-fit: cover;
+}
+
+span{
+    color: #FF0000;
 }
 
 .active {
@@ -515,7 +523,6 @@ section.next .row4{
 
 section.rated {
     padding: 150px 0;
-    padding-bottom: 60px;
 }
 
 section.rated .row {
@@ -542,10 +549,10 @@ section.rated .row .right h2 {
 }
 
 section.rated .row .right a {
+    display: inline-block;
+    padding: 17px 33.5px;
     background-color: #FF0000;
     font-size: 18px;
-    padding: 18.5px 20px;
-    display: inline-block;
 }
 
 section.rated .row .right a:hover {

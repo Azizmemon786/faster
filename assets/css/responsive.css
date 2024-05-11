@@ -7,7 +7,7 @@
 
 @media (max-width : 1230px) {
     .container {
-        padding: 0 20px;
+        padding: 0 10px;
         width: 100%;
     }
 
@@ -335,7 +335,7 @@ section.next .row .left h2 {
 
 @media (max-width : 1024px) {
     .container {
-        padding: 0 20px;
+        padding: 0 10px;
         width: 100%;
     }
 
@@ -668,7 +668,7 @@ section.next .row .left h2 {
 
 @media (max-width : 768px) {
     .container {
-        padding: 0 20px;
+        padding: 0 10px;
         width: 100%;
     }
 
@@ -1063,7 +1063,7 @@ section.next .row .left h2 {
 
 @media (max-width : 575px) {
     .container {
-        padding: 0 20px;
+        padding: 0 10px;
         width: 100%;
     }
 
@@ -1107,7 +1107,7 @@ section.next .row .left h2 {
     /* home start */
 
     section.home .container-home {
-        padding-top: 100px;
+        padding-top: 130px;
         padding-bottom: 100px;
     }
 
