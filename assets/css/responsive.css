@@ -147,17 +147,35 @@
         padding-left: 50px;
     }
 
+    section.success .row .right .top div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 0px 100px 0px 100px;
-
+        padding: 30px 0;
+    
     }
-
+    
     section.success .row .right .top h2 {
-        font-size: 20px;
+        text-align: center;
+       font-size: 120px;
+    }
+    
+    section.success .row .right .top h6{
+        color: #FFf;
+        font-size: 50px;
+        align-items: center;
+    }
+    
+    section.success .row .right .top h4 {
+        font-size: 32px;
+        line-height: 32px;
         text-align: center;
     }
-
     section.success .row .right .bottom {
         background-color: #000;
         padding: 30px;
@@ -427,24 +445,27 @@ section.next .row .left h2 {
         font-size: 40px;
     }
 
+
+
     section.news .card-content {
-        padding: 20px 40px 20px 20px;
+        padding: 20px 10px 20px 20px;
     }
 
     section.news .card-content h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     section.news .card-content p {
         margin-top: 10px;
         margin-bottom: 25px;
-        font-size: 13px;
+        font-size: 13.5px;
         line-height: 18px;
     }
 
     section.news .card-content .learn {
-        width: 140px;
-    }
+         width: 140px;
+        }
+ 
 
     section.news .card-content a {
         font-size: 12px;
@@ -475,16 +496,41 @@ section.next .row .left h2 {
         padding-left: 50px;
     }
 
+    
+    section.success .row .right .top div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
     section.success .row .right .top {
         background-color: #FF0000;
-        padding: 7px 70px 20px 70px;
-
+        padding: 0px; 
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-
+    
     section.success .row .right .top h2 {
-        font-size: 18px;
+        text-align: center;
+       font-size: 90px;
+       padding-bottom: 0;
+    }
+    
+    section.success .row .right .top h6{
+        color: #FFf;
+        font-size: 40px;
+        align-items: center;
+    }
+    
+    section.success .row .right .top h4 {
+        font-size: 24px;
         text-align: center;
     }
+
+   
 
     
 
@@ -664,9 +710,14 @@ section.next .row .left h2 {
         padding-bottom: 30px;
         font-size: 14px;
     }
+
 }
 
-@media (max-width : 768px) {
+@media(max-width : 768px) {
+    .ri-menu-line{
+        display: block;
+        font-size: 30px;
+    }
     .container {
         padding: 0 10px;
         width: 100%;
@@ -705,6 +756,8 @@ section.next .row .left h2 {
     header .right a {
         padding: 10px 12px;
         font-size: 10px;
+        margin-right: 50px;
+        display: none;
     }
 
     /* header end */
@@ -764,7 +817,7 @@ section.next .row .left h2 {
     }
 
     section.news .card-content {
-        padding: 15px 30px 15px 20px;
+        padding: 15px 5px 15px 20px;
     }
 
     section.news .card-content h2 {
@@ -774,8 +827,8 @@ section.next .row .left h2 {
     section.news .card-content p {
         margin-top: 10px;
         margin-bottom: 20px;
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 13.5px;
+        line-height: 20px;
     }
 
     section.news .card-content .learn {
@@ -817,7 +870,7 @@ section.next .row .left h2 {
 
     section.success .row .middle img{
         object-position: top;
-        height: 500px;
+        height: 700px;
     }
 
     
@@ -834,30 +887,12 @@ section.next .row .left h2 {
         padding-right: 100px;
     }
 
-    section.success .row .left .top h2 {
-        line-height: 20px;
-        font-size: 18px;
-    }
 
     section.success .row .left .bottom {
         padding-right: 50px;
         padding-left: 50px;
     }
 
-    section.success .row .right .top {
-        background-color: #FF0000;
-        padding: 7px 50px 20px 50px;
-
-    }
-
-    section.success .row .right .top h2 {
-        font-size: 18px;
-        text-align: center;
-    }
-    
-    /* sectin success end */
-    /* ........................... */
-    /* section next start */
 
     section.next{
         margin-top: 80px;
@@ -962,12 +997,13 @@ section.next .row .left h2 {
     /* section rated start */
 
     section.rated {
-        padding-top: 80px;
+        padding: 0;
     }
 
     section.rated .row {
-        grid-template-columns: 55% 45%;
+        grid-template-columns: 55% 40%;
         grid-gap: 20px;
+        padding: 0;
     }
 
     section.rated .row .left img {
@@ -976,7 +1012,11 @@ section.next .row .left h2 {
 
     section.rated .row .right {
         padding-top: 60px;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
+    }
+
+    section.rated .row .right img{
+        width: 10%; 
     }
 
     section.rated .row .right h2 {
@@ -988,11 +1028,13 @@ section.next .row .left h2 {
     section.rated .row .right a {
         font-size: 12px;
         padding: 10px 12px;
+        margin-bottom: 0;
     }
 
     /* section.rated end  */
     /* ............................. */
     /* section family start */
+
 
     section.family .left {
         padding: 50px 35px;
@@ -1170,8 +1212,8 @@ section.next .row .left h2 {
     section.news .card-content p {
         margin-top: 10px;
         margin-bottom: 20px;
-        font-size: 12px;
-        line-height: 15px;
+        font-size: 14px;
+        line-height: 20px;
     }
 
     section.news .card-content .learn {
@@ -1216,10 +1258,9 @@ section.next .row .left h2 {
         grid-template-columns: 1fr;
     }
 
-    section.success .row .middle img{
-        /* aspect-ratio: 2/1; */
+    section.success .row .middle img {
+        height: 450px;
         object-position: top;
-        height: 300px;
     }
 
     
@@ -1246,18 +1287,24 @@ section.next .row .left h2 {
         padding-left: 20px;
     }
 
-    section.success .row .right .top {
+     section.success .row .right .top {
         background-color: #FF0000;
         padding: 7px 20px 20px 20px;
 
     }
 
-    section.success .row .right .top h2 {
-        font-size: 15px;
-        line-height: 20px;
-        text-align: center;
-        padding: 0;
+    section.success .row .right .top h2{
+        font-size: 50px;
     }
+
+    section.success .row .right .top span {
+        font-size: 23px;
+    }
+
+    section.success .row .right .top h4{
+        font-size: 16px;
+    }
+
 
     section.success .row .right .bottom{
         padding: 10px;
@@ -1307,22 +1354,33 @@ section.next .row .left h2 {
     section.next .row .right .row {
         align-items: center;
         display: grid;
-        grid-template-columns: 110px 30px 110px;
+        grid-template-columns: 0.6fr 0.2fr 0.6fr;
         justify-content: left;
+        grid-gap: 10px;
     }
 
+    
+
     section.next .row .right .row .left-r img {
+        display: block;
         background: #fff;
+        padding: 20px 16px;
+    }
+
+    section.next .row .right .row .right-r{
+        display: flex;
     }
 
     section.next .row .right .row .right-r img {
         background: #fff;
+        display: block;
+        padding: 30px 10px;
     }
 
     section.next .row .right .row .middle-r h2 {
         width: fit-content;
         color: #FF0000;
-        font-size: 20px;
+        font-size: 30px;
         padding: 0;
     }
 
@@ -1332,9 +1390,9 @@ section.next .row .left h2 {
     }
 
     section.next .row2{
-        grid-template-columns: 20% 35% 30%;
-        grid-gap: 10px;
-        padding:30px 0;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 20px;        
+        justify-content: space-between;
     }
 
     section.next .row2 p {
@@ -1354,7 +1412,7 @@ section.next .row .left h2 {
 
     section.next .row2 .three {
         text-wrap: nowrap;
-        padding-left: 0px;
+        justify-content: right;
     }
 
     section.next .row2 .four {
@@ -1370,7 +1428,7 @@ section.next .row .left h2 {
 
     section.next .row2 .six{
         gap: 5px;
-        justify-content: left;
+        justify-content: right;
     }
 
     section.next .row3 .four{

@@ -34,9 +34,9 @@ var swiper = new Swiper(".logoSwiper", {
   var swiper = new Swiper(".newsSwiper", {
     slidesPerView: 3,
     spaceBetween: 32,
-    autoplay: {
-        delay: 5000,
-      },    
+    // autoplay: {
+    //     delay: 0000,
+    //   },    
     navigation: {
       nextEl: ".news-next",
       prevEl: ".news-prev",
@@ -48,9 +48,9 @@ var swiper = new Swiper(".logoSwiper", {
       },
       575: {
         slidesPerView: 2,
-        spaceBetween: 20,
+        spaceBetween: 15,
       },
-      768: {
+      769: {
         slidesPerView: 3,
         spaceBetween: 20,
       },

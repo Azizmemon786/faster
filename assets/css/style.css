@@ -13,6 +13,10 @@
     text-decoration: none;
 }
 
+.ri-menu-line{
+    display: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -247,7 +251,7 @@ section.news .card-content .learn {
     transition: ease-in-out all 0.5s;
 }
 
-section.news .card-content .learn:hover {
+section.news .card:hover .learn {
     width: 100%;
 }
 
@@ -338,28 +342,38 @@ section.success .row .middle img {
 }
 
 section.success .row .right {
-    /* width: 495px; */
     height: 100%;
     display: grid;
 }
 
-section.success .row .right .top {
-    background-color: #FF0000;
-    padding: 7px 109px 20px 90px;
-
+section.success .row .right .top div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-section.success .row .right .top svg {
-    height: 100%;
-    width: 100%;
-    display: block;
-    margin: auto;
+section.success .row .right .top {
+    background-color: #FF0000;
+    padding: 30px 0;
+
 }
 
 section.success .row .right .top h2 {
-    font-size: 32px;
     text-align: center;
-    padding-top: 20px;
+   font-size: 120px;
+}
+
+section.success .row .right .top h6{
+    color: #FFf;
+    font-size: 50px;
+    align-items: center;
+}
+
+section.success .row .right .top h4 {
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
 }
 
 section.success .row .right .bottom {
@@ -425,6 +439,8 @@ section.next .row .right .row {
 section.next .row .right .row .left-r img {
     background: #fff;
     padding: 53.5px 58.5px;
+    display: flex;
+    justify-content: end;
 }
 
 section.next .row .right .row .middle-r h2 {
