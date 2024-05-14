@@ -951,6 +951,7 @@ section.next .row .left h2 {
         font-size: 16px;
     }
 
+   
     section.next .row2 p {
         font-size: 10px;
         font-family: sans-serif;
@@ -997,6 +998,7 @@ section.next .row .left h2 {
     /* section rated start */
 
     section.rated {
+        margin: 80px 0;
         padding: 0;
     }
 
@@ -1443,11 +1445,6 @@ section.next .row .left h2 {
     /* ........................... */
     /* section rated start */
 
-    section.rated {
-        padding-top: 60px;
-        padding-bottom: 30px;
-    }
-
     section.rated .row {
         grid-template-columns: 100%;
         grid-gap: 20px;
@@ -1459,6 +1456,7 @@ section.next .row .left h2 {
 
     section.rated .row .right {
         padding-top: 20px;
+        padding: 0;
     }
 
     section.rated .row .right h2 {
@@ -1482,11 +1480,7 @@ section.next .row .left h2 {
 
     section.family .row{
         grid-template-columns: 1fr;
-    }
-
-    section.family .left {
-        padding: 60px 30px;
-    }
+    }    
 
     section.family .left h2 {
         font-size: 30px;
@@ -1496,7 +1490,7 @@ section.next .row .left h2 {
     section.family .left .links {
         display: flex;
         align-items: center;
-        gap: 10px;
+        /* gap: 10px; */
         padding-top: 20px;
     }
 
@@ -1509,6 +1503,14 @@ section.next .row .left h2 {
         height: 30px;
         flex-wrap: wrap;
         padding: 0 8px;
+    }
+
+    
+
+    section.family .right img{
+        max-height: 330px;
+        height: 100%;
+        display: block;
     }
 
     /* section family end */
